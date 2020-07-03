@@ -1,0 +1,15 @@
+; P-CAD 2006 Schematic Version 19.00.6667 [E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.SCH]--Tue Mar 05 22:24:45 2019
+;CompReplace "C7" "C(2.5/2/2.5)" "C(5/4/5)"
+; P-CAD 2006 Schematic Version 19.00.6667 [E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.SCH]--Wed Mar 06 20:46:20 2019
+;CompAttrModify "C11" "Value" "100,0x10" "" "string" ""
+; P-CAD 2006 Schematic Version 19.00.6667 [E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.SCH]--Fri Mar 08 00:16:19 2019
+;NetNodeDelete "GND" "C9-2"
+;NetNodeDelete "GND_OUT" "C9-1"
+;NetNodeAdd "VCC" "C9-1"
+;NetNodeAdd "GND_OUT" "C9-2"
+; P-CAD 2006 Schematic Version 19.00.6667 [E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.SCH]--Fri Mar 08 00:39:50 2019
+;RefdesChange "C8" "C8_1"
+;RefdesChange "C9" "C8"
+;RefdesChange "C8_1" "C9"
+; P-CAD 2006 Schematic Version 19.00.6667 [E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.SCH]--Tue Mar 12 19:47:20 2019
+;CompReplace "R1" "R-0.125" "RSMT0805"

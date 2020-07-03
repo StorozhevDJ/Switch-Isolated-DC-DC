@@ -1,0 +1,182 @@
+E:\Electronics\MyProjects\Projects\Isolated DC-DC\IsolatedDcDc.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Silk Screen Clearance:  12.0mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.300     0.300     0.300     0.300     0.300     0.300
+Bottom                0.300     0.200     0.200     0.300     0.300     0.300
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       Off
+Clearance Violations:                   On
+Text Violations:                        Off
+Same-Parent-Component Pad Violations:   Off
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       Off
+Net Length Violations:                  Off
+Silk Violations:                        Off
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   On
+Drill Violations:                       On
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+Error 1 --    * Line at (170.574, 98.412):(172.212, 96.774) mm [Bottom layer] i
+s located outside board outline.
+Error 2 --    * Line at (172.212, 96.774):(196.850, 96.774) mm [Bottom layer] i
+s located outside board outline.
+Error 3 --    * Line at (196.850, 96.774):(199.136, 99.060) mm [Bottom layer] i
+s located outside board outline.
+Error 4 --    * Copper Pour at (201.930, 96.520),(218.440, 96.520),(218.440,116
+.840),...mm [Bottom layer] is located outside board outline.
+
+0 warning(s) detected.
+4 error(s) detected.
+
+UNROUTED NETS:
+
+Error 5 -- Net GND not routed
+   * Net GND partition 1 contains:
+   * Pad C4-1 at (180.975,103.759) mm
+   * Pad C3-2 at (178.816,114.126) mm
+   * Pad C6-1 at (183.642,116.840) mm
+   * Pad DA1-5 at (176.022,104.394) mm
+   * Pad DA1-2 at (170.434,101.854) mm
+   * Pad R6-1 at (178.562,108.458) mm
+   * Pad V1-3 at (199.390,101.600) mm
+   * Pad T1-3 at (169.084,109.380) mm
+   * Pad C1-1 at (172.212,110.744) mm
+   * Pad C8-1 at (173.482, 98.298) mm
+   * Pad C5-1 at (178.308,104.648) mm
+   * Pad C2-1 at (165.862,106.426) mm
+   * Net GND partition 2 contains:
+   * Pad C9-2 at (199.684,106.426) mm
+Warning 1 -- Net GND_OUT is not connected due to through hole Pad of pattern DA
+2 at 206.522mm 108.926mm is unplated.
+Warning 2 -- Net NET00027 is not connected due to through hole Pad of pattern D
+A2 at 205.272mm 106.426mm is unplated.
+Warning 3 -- Net TL431_IN is not connected due to through hole Pad of pattern D
+A2 at 207.772mm 106.426mm is unplated.
+
+3 warning(s) detected.
+1 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+Warning: Width violation tests were not performed because
+         of missing Width rule.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+Error 6 -- Copper pour unpoured:
+   * Copper Pour at (162.560, 96.520),(195.834, 96.520),(195.834,110.236),...mm
+ [Bottom layer]
+
+0 warning(s) detected.
+1 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         4
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         1
+	Warnings:       3
+	Ignored Errors: 0
+Width:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         1
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
